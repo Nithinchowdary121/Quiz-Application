@@ -1,0 +1,32 @@
+body {   font-family: 'Poppins', sans-serif;   background: linear-gradient(to right, #667eea, #764ba2); 
+  color: #fff;   padding: 20px;   min-height: 100vh;   display: flex;   justify-content: center;   align-items: center; 
+} 
+.quiz-container {   background: #1f1f1f;   padding: 30px;   max-width: 600px;   width: 90%;   box-shadow: 0 8px 20px rgba(0,0,0,0.3);   border-radius: 15px;   text-align: center; 
+} 
+.quiz-container h1 {   color: #f4f4f4;   margin-bottom: 20px; 
+} 
+label {   font-size: 1rem;   display: block;   margin-bottom: 10px; 
+} 
+select, button {   padding: 10px 15px;   margin-top: 10px;   font-size: 1rem;   border-radius: 8px;   border: none;   cursor: pointer; 
+} 
+button {   background-color: #28c76f; color: white; font-weight: bold; margin-top: 15px; 
+}
+button:hover {   background-color: #22b463; 
+} 
+#options {   list-style: none;   padding: 0;   margin-top: 20px; 
+} 
+#options li {   background: #333; 
+  color: #fff;   padding: 12px;   margin: 10px 0;   border-radius: 6px;   cursor: pointer;   border: 1px solid #555;   transition: background 0.3s; 
+} 
+#options li:hover {   background: #444; 
+} 
+.correct {   background-color: #2ecc71 !important; 
+} 
+.incorrect {   background-color: #e74c3c !important; 
+} 
+#result, #high-score {   margin-top: 15px;   font-weight: bold;   color: #ffd700; 
+} 
+#score-list {   list-style: none;   padding: 0;   margin: 20px 0; 
+} 
+#score-list li {   background-color: #333;   padding: 12px;   margin: 10px 0;   border-radius: 8px;   font-size: 18px;   color: #fff;   border: 1px solid #555; 
+} 
